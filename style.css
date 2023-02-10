@@ -9,14 +9,16 @@
 h1{
     font-weight: 900;
     color: aliceblue;
-    display: flex;
-    justify-content: center;
 }
 header{
     background: url(./assets/AR-es-20230206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
+    /* background: radial-gradient(rgb(0,rgba(0, 0, 0, 0.185)0),rgba(128, 128, 128, 0.123)); */
+}
+.fondo{
+    backdrop-filter: brightness(40%);
 }
 .border_box{
     border-bottom: 5px solid grey;
